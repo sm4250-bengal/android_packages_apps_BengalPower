@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bengal.power" android:versionCode="3" android:versionName="1.2-oem-standby">
+    <!-- Own UID only. Power calls are default-off at process start and require real readiness.
+         Permissions exist in this selected APK, including observation mode; see OBSERVER.md. -->
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.NETWORK_AIRPLANE_MODE" />
+    <uses-permission android:name="android.permission.NETWORK_STACK" />
+    <uses-permission android:name="android.permission.TETHER_PRIVILEGED" />
+    <uses-permission android:name="android.permission.NETWORK_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.MANAGE_USB" />
+    <application android:name=".ObserverApplication"
+        android:icon="@mipmap/ic_bengal_launcher"
+        android:roundIcon="@mipmap/ic_bengal_launcher"
+        android:label="Bengal Power" android:allowBackup="false"
+        android:persistent="true" android:directBootAware="true"
+        android:defaultToDeviceProtectedStorage="true" />
+</manifest>

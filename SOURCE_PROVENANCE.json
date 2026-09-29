@@ -1,0 +1,566 @@
+{
+  "files": [
+    {
+      "git_blob": "50e583ee62c8624681c73349fcd228d76cd3f1f5",
+      "last_change_author": "wifi133",
+      "last_change_commit": "03f72bfa4b43673688e617ca3c05486248833e6b",
+      "mode": "100644",
+      "path": "Android.bp",
+      "sha256": "cf00dfd2bb9f45ed08dc6191eb108c8c653e7fce255cada601412fc0faa573ae",
+      "size": 650,
+      "source": "platform/packages/apps/BengalPower/Android.bp"
+    },
+    {
+      "git_blob": "3b9fc25b0214003e5a511f80dff60971ac5fd9a0",
+      "last_change_author": "wifi133",
+      "last_change_commit": "209b7702ae66365324d70642fe11d59bcec1571c",
+      "mode": "100644",
+      "path": "AndroidManifest.xml",
+      "sha256": "8e84edc0f29f371b0d28f4b36a6f5fb2d62aad46b60d21c1099ed0cccb8a3752",
+      "size": 1736,
+      "source": "platform/packages/apps/BengalPower/AndroidManifest.xml"
+    },
+    {
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "last_change_author": "wifi133",
+      "last_change_commit": "631cb843483a44f92c0b451dad8a0632e62ef269",
+      "mode": "100644",
+      "path": "LICENSES/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358,
+      "source": "platform/source-release/licenses/Apache-2.0.txt"
+    },
+    {
+      "git_blob": "d342de745e8fffef364a6db28273bf365a3fda82",
+      "last_change_author": "wifi133",
+      "last_change_commit": "9afab12818032fe0df0db1e8eaa60a71d3812475",
+      "mode": "100644",
+      "path": "OBSERVER.md",
+      "sha256": "88546c74cce843ffc8e1c2b287dc578bb55e11dc690854e0b6b22b825efbb766",
+      "size": 10758,
+      "source": "platform/packages/apps/BengalPower/OBSERVER.md"
+    },
+    {
+      "git_blob": "97d729ea15160398e411fe9859da30f3988e16f6",
+      "last_change_author": "wifi133",
+      "last_change_commit": "9afab12818032fe0df0db1e8eaa60a71d3812475",
+      "mode": "100644",
+      "path": "README.md",
+      "sha256": "e577a8b9e7d76f0c7b21f1aefe23071b209030efcf34ab0bf98352cf8d1cca2f",
+      "size": 24946,
+      "source": "platform/packages/apps/BengalPower/README.md"
+    },
+    {
+      "git_blob": "f72b8c77bd954a08cd7477f05a5040bea7f1fd56",
+      "last_change_author": "wifi133",
+      "last_change_commit": "9afab12818032fe0df0db1e8eaa60a71d3812475",
+      "mode": "100644",
+      "path": "default-permissions-com.bengal.power.xml",
+      "sha256": "d2420f10530c8c2aad09329c0825200833adc14125aac7f6ed0aaf21698d6869",
+      "size": 206,
+      "source": "platform/packages/apps/BengalPower/default-permissions-com.bengal.power.xml"
+    },
+    {
+      "git_blob": "5cec6b84f643c1fe84e4a4b11dd53a520a0a85ef",
+      "last_change_author": "wifi133",
+      "last_change_commit": "f1069622c4d9f2a6b642312404caf42438d04a4d",
+      "mode": "100644",
+      "path": "privapp-permissions-com.bengal.power.xml",
+      "sha256": "a4ce7c22e415c4439c2a094a454e842db7c312b5d626a0010c9cb393cb011c8f",
+      "size": 628,
+      "source": "platform/packages/apps/BengalPower/privapp-permissions-com.bengal.power.xml"
+    },
+    {
+      "git_blob": "9d175fa49427fed124dd96492e27c68f27ac9a29",
+      "last_change_author": "wifi133",
+      "last_change_commit": "209b7702ae66365324d70642fe11d59bcec1571c",
+      "mode": "100644",
+      "path": "res/drawable/ic_bengal_launcher_foreground.xml",
+      "sha256": "68c9acedb90c32e442a05cf6a1d3bd2f5a9aff123af710ed13ab81a5653ed880",
+      "size": 971,
+      "source": "platform/packages/apps/BengalPower/res/drawable/ic_bengal_launcher_foreground.xml"
+    },
+    {
+      "git_blob": "47ac287df0a6c68e9771a5343224a42b05f94f6a",
+      "last_change_author": "wifi133",
+      "last_change_commit": "209b7702ae66365324d70642fe11d59bcec1571c",
+      "mode": "100644",
+      "path": "res/mipmap-anydpi-v26/ic_bengal_launcher.xml",
+      "sha256": "d28a7dec5494b030592c78e1b70051a5dd581b010aa33c1044b10c998d764e87",
+      "size": 360,
+      "source": "platform/packages/apps/BengalPower/res/mipmap-anydpi-v26/ic_bengal_launcher.xml"
+    },
+    {
+      "git_blob": "f0761747d2581e433a430d19844f16298142efa0",
+      "last_change_author": "wifi133",
+      "last_change_commit": "209b7702ae66365324d70642fe11d59bcec1571c",
+      "mode": "100644",
+      "path": "res/mipmap-anydpi-v33/ic_bengal_launcher.xml",
+      "sha256": "13c5b8c1e6b131322e5b4e0b9df27ab302f3f9d83ab7b887e680bbc59fa0693e",
+      "size": 434,
+      "source": "platform/packages/apps/BengalPower/res/mipmap-anydpi-v33/ic_bengal_launcher.xml"
+    },
+    {
+      "git_blob": "402d28ed4bcc5d79a2cdc662a3784cce32d77fa6",
+      "last_change_author": "wifi133",
+      "last_change_commit": "209b7702ae66365324d70642fe11d59bcec1571c",
+      "mode": "100644",
+      "path": "res/mipmap-anydpi/ic_bengal_launcher.xml",
+      "sha256": "445bd8b6906473e710b40e6611c0a700a2050a1db0abaa9557cf7ae757bad3a3",
+      "size": 1131,
+      "source": "platform/packages/apps/BengalPower/res/mipmap-anydpi/ic_bengal_launcher.xml"
+    },
+    {
+      "git_blob": "56f8571016bcdf2cebc56cf74c157fb12e932f69",
+      "last_change_author": "wifi133",
+      "last_change_commit": "209b7702ae66365324d70642fe11d59bcec1571c",
+      "mode": "100644",
+      "path": "res/values/bengal_launcher_colors.xml",
+      "sha256": "0031365f8b13ae8adfd682c0a333b159e464ffd61ecd1d40b68d4e2abc10f879",
+      "size": 208,
+      "source": "platform/packages/apps/BengalPower/res/values/bengal_launcher_colors.xml"
+    },
+    {
+      "git_blob": "af170e2fbd0fc9ac6508b736215b841649beb41d",
+      "last_change_author": "wifi133",
+      "last_change_commit": "82e4d9ca1d515f936f27923d51a251e3fb64fa29",
+      "mode": "100644",
+      "path": "src/com/bengal/power/AccPowerCoordinator.java",
+      "sha256": "54050f5187b0566b6fe6f8d3b0db217c68d3ac1bf8656102b9a7d9b140470a43",
+      "size": 15809,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/AccPowerCoordinator.java"
+    },
+    {
+      "git_blob": "b041143d5e6a7b70d0c909770b11e7a75110eca7",
+      "last_change_author": "wifi133",
+      "last_change_commit": "82e4d9ca1d515f936f27923d51a251e3fb64fa29",
+      "mode": "100644",
+      "path": "src/com/bengal/power/AccPowerSession.java",
+      "sha256": "757e10334a15cc69529cd010029ba85e14e8bf78ea15ca994b2e4a4db1e39f57",
+      "size": 14767,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/AccPowerSession.java"
+    },
+    {
+      "git_blob": "2bb531120feb6314a130e7c75d22cb15ae7277dd",
+      "last_change_author": "wifi133",
+      "last_change_commit": "0790b7bb9b63fadd5702c07855af328584ddfc6e",
+      "mode": "100644",
+      "path": "src/com/bengal/power/AndroidAccPowerChannel.java",
+      "sha256": "93dde7d2d91233d6918af85889e1e51165fe14c4a7f1d26afff1b7bebd6e0616",
+      "size": 10141,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/AndroidAccPowerChannel.java"
+    },
+    {
+      "git_blob": "72982c2d141d826ccc0851514101bdfb8237be4c",
+      "last_change_author": "wifi133",
+      "last_change_commit": "cd724eb6ca5c4a1eee9bce7ec890bbcf3e5da938",
+      "mode": "100644",
+      "path": "src/com/bengal/power/AndroidOwnedPreparation.java",
+      "sha256": "6a816375d74700d5b645e240bc9d814c1187e707615815fdf8852842cecc4c9b",
+      "size": 18902,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/AndroidOwnedPreparation.java"
+    },
+    {
+      "git_blob": "d618b54fa4fbd16e53ddae37b7096ef47a8b9887",
+      "last_change_author": "wifi133",
+      "last_change_commit": "5d0322a0d2f585c891034be707b1419155b1aab1",
+      "mode": "100644",
+      "path": "src/com/bengal/power/AndroidPowerHost.java",
+      "sha256": "f26550c09fb8e1631758381d599c0505fdef073b878b2db8a2ceb232bbefebbc",
+      "size": 2385,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/AndroidPowerHost.java"
+    },
+    {
+      "git_blob": "3209b3f2ba2886db805fdf6256b27ff9cf7d4fd6",
+      "last_change_author": "wifi133",
+      "last_change_commit": "0790b7bb9b63fadd5702c07855af328584ddfc6e",
+      "mode": "100644",
+      "path": "src/com/bengal/power/AndroidPreparationPlatform.java",
+      "sha256": "370d847930bee38bf0e4bb303bd8f5597d388fd54355a8bcaf6497805ea86add",
+      "size": 8236,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/AndroidPreparationPlatform.java"
+    },
+    {
+      "git_blob": "f883829bd966b0dd241b271dd599a4de1c815a76",
+      "last_change_author": "wifi133",
+      "last_change_commit": "5d0322a0d2f585c891034be707b1419155b1aab1",
+      "mode": "100644",
+      "path": "src/com/bengal/power/AndroidPreparationTimer.java",
+      "sha256": "332d90813595a9f82f93746e3ec25e7f5e94aa32e98e17fd3808395a2dc51354",
+      "size": 3965,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/AndroidPreparationTimer.java"
+    },
+    {
+      "git_blob": "4a687c0366e8e3643d146ac5155db1592a38fb42",
+      "last_change_author": "wifi133",
+      "last_change_commit": "0790b7bb9b63fadd5702c07855af328584ddfc6e",
+      "mode": "100644",
+      "path": "src/com/bengal/power/AndroidStandbyPeripherals.java",
+      "sha256": "a790413d4a9284d1e8431416c14ae9db19349969c097c73537b154c44d289af9",
+      "size": 10375,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/AndroidStandbyPeripherals.java"
+    },
+    {
+      "git_blob": "f8d4e2bf242a4c68b7ad32368d5bd6d7e0ab2e58",
+      "last_change_author": "wifi133",
+      "last_change_commit": "5bfaa3aa69799d3a85d5f9da5039e3aa87855509",
+      "mode": "100644",
+      "path": "src/com/bengal/power/BacpChannel.java",
+      "sha256": "ecdd7d6b0970f921b07c65435d62b1fb4b694e035a3549af41656f44d772750d",
+      "size": 8997,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/BacpChannel.java"
+    },
+    {
+      "git_blob": "4e9d7cc21b3e1ef1cf5e054bfd98fb9c58ce02d8",
+      "last_change_author": "wifi133",
+      "last_change_commit": "ab78fc3aa0545da8db7e7cc3658b22b2e3d050bc",
+      "mode": "100644",
+      "path": "src/com/bengal/power/BacpPacket.java",
+      "sha256": "82acee4267cf780a3b4946f4dffbcbbe859992bc87647b633610112e66f5fe2a",
+      "size": 3908,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/BacpPacket.java"
+    },
+    {
+      "git_blob": "13e9a4a2efd688b023d3990eaaba085d39452ef1",
+      "last_change_author": "wifi133",
+      "last_change_commit": "ab78fc3aa0545da8db7e7cc3658b22b2e3d050bc",
+      "mode": "100644",
+      "path": "src/com/bengal/power/BacpPeerAuth.java",
+      "sha256": "41aa6bec78d3023abcbbf354452c81bf214df547c3188197c302363f1e21bdd9",
+      "size": 1959,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/BacpPeerAuth.java"
+    },
+    {
+      "git_blob": "e06a97516ff107e508b70d4b2ddade14958b1e9c",
+      "last_change_author": "wifi133",
+      "last_change_commit": "ab78fc3aa0545da8db7e7cc3658b22b2e3d050bc",
+      "mode": "100644",
+      "path": "src/com/bengal/power/BacpRecordReader.java",
+      "sha256": "a32bed93bfa2cbc0520d3c0f321678d130d0f05c483683e25339483bfe1060f5",
+      "size": 1752,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/BacpRecordReader.java"
+    },
+    {
+      "git_blob": "28d3da0c0c7c4d88711b7487d6f6e34c6f4d5f1c",
+      "last_change_author": "wifi133",
+      "last_change_commit": "baff019458d522ee11a8e634e35818222feb40d2",
+      "mode": "100644",
+      "path": "src/com/bengal/power/CameraIntegration.java",
+      "sha256": "20d036867b70734c3719295e5df31d78d6509796486ef0690c97b590dee42b55",
+      "size": 6087,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/CameraIntegration.java"
+    },
+    {
+      "git_blob": "e9cf55244aeece6c5319c75ba2c7b567e203af21",
+      "last_change_author": "wifi133",
+      "last_change_commit": "c7ff0ba4ff8e8771a84200655811c7ca022655c5",
+      "mode": "100644",
+      "path": "src/com/bengal/power/CameraPolicyState.java",
+      "sha256": "3a8281dcbe94605a5f62f035e4642aa3c17fcf08154f28726b4c02b00ebb1e4b",
+      "size": 1502,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/CameraPolicyState.java"
+    },
+    {
+      "git_blob": "1e9b94d94a852df151ba195642c9b25b49b7a6a2",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d3668ead382682adbf0eccd385e6e425c1d9f971",
+      "mode": "100644",
+      "path": "src/com/bengal/power/GnssStandbyState.java",
+      "sha256": "eb58d3c7e1dfcb92ea93231268836d6988943778a5989990f9467f280cebbeb0",
+      "size": 325,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/GnssStandbyState.java"
+    },
+    {
+      "git_blob": "be53acf6d163f2f36f2959aa43d8d7dd4f6436a9",
+      "last_change_author": "wifi133",
+      "last_change_commit": "82e4d9ca1d515f936f27923d51a251e3fb64fa29",
+      "mode": "100644",
+      "path": "src/com/bengal/power/InstalledDeepCapability.java",
+      "sha256": "3905f7fc912c00a405b3cbf06cbc0c889436f2d8f1635372ef89184c04dc0fa4",
+      "size": 3226,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/InstalledDeepCapability.java"
+    },
+    {
+      "git_blob": "86363f9b84eee3f841e7b528c46c2ee250019dc4",
+      "last_change_author": "wifi133",
+      "last_change_commit": "6f11f052b63c9c13bc90511ae76e84f395fe3d05",
+      "mode": "100644",
+      "path": "src/com/bengal/power/ObserverApplication.java",
+      "sha256": "ecdff59965dc287f2ae21e4aa557f8fb93552f4012ee103560719a6891eb8009",
+      "size": 7135,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/ObserverApplication.java"
+    },
+    {
+      "git_blob": "042c8894aa18a669a51bdc3a98e938cec87f003d",
+      "last_change_author": "wifi133",
+      "last_change_commit": "82e4d9ca1d515f936f27923d51a251e3fb64fa29",
+      "mode": "100644",
+      "path": "src/com/bengal/power/UnavailablePowerReadiness.java",
+      "sha256": "4b13ff3ed27672f2770a10217965870b3204e035bfc69f64a59b86c59e75c896",
+      "size": 950,
+      "source": "platform/packages/apps/BengalPower/src/com/bengal/power/UnavailablePowerReadiness.java"
+    },
+    {
+      "git_blob": "8af837522f1724bb5ddfc470ecef2c2acbee3efa",
+      "last_change_author": "wifi133",
+      "last_change_commit": "5d0322a0d2f585c891034be707b1419155b1aab1",
+      "mode": "100644",
+      "path": "tests/android/os/PowerManager.java",
+      "sha256": "736ea8f3c7c213d5fca4049b5c9ce7b5ed76ed9a6f2cf991d2270fc3ae9efa4d",
+      "size": 2104,
+      "source": "platform/packages/apps/BengalPower/tests/android/os/PowerManager.java"
+    },
+    {
+      "git_blob": "b66b56676b0191d02958393cb122e8dc10aeaf16",
+      "last_change_author": "wifi133",
+      "last_change_commit": "5d0322a0d2f585c891034be707b1419155b1aab1",
+      "mode": "100644",
+      "path": "tests/android/os/SystemClock.java",
+      "sha256": "9ca3e841279ad36e4260f67eca3100098230d028d75752e18b9305a106734561",
+      "size": 352,
+      "source": "platform/packages/apps/BengalPower/tests/android/os/SystemClock.java"
+    },
+    {
+      "git_blob": "1f6ad3f985c415e4ccf83278f11b3ec751f6c880",
+      "last_change_author": "wifi133",
+      "last_change_commit": "9afab12818032fe0df0db1e8eaa60a71d3812475",
+      "mode": "100755",
+      "path": "tests/check-platform-api.sh",
+      "sha256": "1ae08d303292f1caca8c6524dfba387e18b292ac6afd0b31b5c10134365ab920",
+      "size": 2378,
+      "source": "platform/packages/apps/BengalPower/tests/check-platform-api.sh"
+    },
+    {
+      "git_blob": "69c827597bfebce5301326176d7164cd1b787166",
+      "last_change_author": "wifi133",
+      "last_change_commit": "9afab12818032fe0df0db1e8eaa60a71d3812475",
+      "mode": "100644",
+      "path": "tests/check-privapp-permissions.py",
+      "sha256": "b417f32cc15ddf4391bb6eb33ae00bbfdd9e64fee19c858cec5679af7ca2c61a",
+      "size": 2537,
+      "source": "platform/packages/apps/BengalPower/tests/check-privapp-permissions.py"
+    },
+    {
+      "git_blob": "13aa662e62ac3bb53b0c4725b988aa953ad0c5c0",
+      "last_change_author": "wifi133",
+      "last_change_commit": "6af7300c332f00e93378773d7fc6be4e8020f36f",
+      "mode": "100644",
+      "path": "tests/com/bengal/power/AccPowerCoordinatorTest.java",
+      "sha256": "2beb90379cfbad616665631ac3d2a815032c6cc414eeed5f0db015c306c2f11c",
+      "size": 21636,
+      "source": "platform/packages/apps/BengalPower/tests/com/bengal/power/AccPowerCoordinatorTest.java"
+    },
+    {
+      "git_blob": "0d18f19cd70e0015da8755513767e2239f712000",
+      "last_change_author": "wifi133",
+      "last_change_commit": "5d0322a0d2f585c891034be707b1419155b1aab1",
+      "mode": "100644",
+      "path": "tests/com/bengal/power/AndroidAdaptersTest.java",
+      "sha256": "27357c41898ab826c5270aa4a76b43d0b65db1dbe5e8fde01f0b5737daf99500",
+      "size": 12476,
+      "source": "platform/packages/apps/BengalPower/tests/com/bengal/power/AndroidAdaptersTest.java"
+    },
+    {
+      "git_blob": "f65fa1f32b52bb0f6812b29f40203f67c8b7de5a",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/com/bengal/power/AndroidFdLifetimeTest.java",
+      "sha256": "c76e94cd7e3803fc5a4436c1107f01f291503b6ec98ff8b1a9f7798314d4e928",
+      "size": 6786,
+      "source": "platform/packages/apps/BengalPower/tests/com/bengal/power/AndroidFdLifetimeTest.java"
+    },
+    {
+      "git_blob": "9b5e8593e85016cb96e955e91aeb6938080f557b",
+      "last_change_author": "wifi133",
+      "last_change_commit": "cd724eb6ca5c4a1eee9bce7ec890bbcf3e5da938",
+      "mode": "100644",
+      "path": "tests/com/bengal/power/AndroidOwnedPreparationTest.java",
+      "sha256": "e6c80000f8802b74cfec55b11c0f527832ccf2731d17fbf5479fc95b9b76915e",
+      "size": 19009,
+      "source": "platform/packages/apps/BengalPower/tests/com/bengal/power/AndroidOwnedPreparationTest.java"
+    },
+    {
+      "git_blob": "ef39638b72e470bab5b1a7607bf01f1bd9c4f0f9",
+      "last_change_author": "wifi133",
+      "last_change_commit": "5bfaa3aa69799d3a85d5f9da5039e3aa87855509",
+      "mode": "100644",
+      "path": "tests/com/bengal/power/BacpChannelTest.java",
+      "sha256": "4ee4cbc77062d98abb20d2a11da66910c56d99012c0638669614ecde1cfdf734",
+      "size": 16858,
+      "source": "platform/packages/apps/BengalPower/tests/com/bengal/power/BacpChannelTest.java"
+    },
+    {
+      "git_blob": "d57f3c3a25f3504de2aeaf67305568276708d3a8",
+      "last_change_author": "wifi133",
+      "last_change_commit": "82e4d9ca1d515f936f27923d51a251e3fb64fa29",
+      "mode": "100644",
+      "path": "tests/com/bengal/power/BacpSessionTest.java",
+      "sha256": "86d1fdd553280cd3aa7c309f84fce735a089ff8ef3de6d87b586163bdd5ba71f",
+      "size": 18045,
+      "source": "platform/packages/apps/BengalPower/tests/com/bengal/power/BacpSessionTest.java"
+    },
+    {
+      "git_blob": "a0e3cb366ecd52d749e867b5fd85a92eac8f72f8",
+      "last_change_author": "wifi133",
+      "last_change_commit": "c7ff0ba4ff8e8771a84200655811c7ca022655c5",
+      "mode": "100644",
+      "path": "tests/com/bengal/power/CameraPolicyStateTest.java",
+      "sha256": "fe68dfc34f7c0a9c6105b7fb6eb534d742f98956ab9a8317d2a50689960bc804",
+      "size": 2068,
+      "source": "platform/packages/apps/BengalPower/tests/com/bengal/power/CameraPolicyStateTest.java"
+    },
+    {
+      "git_blob": "05160eefdeb94a208fa7b2a0f2b0dec7bb496de3",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d3668ead382682adbf0eccd385e6e425c1d9f971",
+      "mode": "100644",
+      "path": "tests/com/bengal/power/GnssStandbyStateTest.java",
+      "sha256": "105fedc474e491e8bec59c6f6019b9731c287f81a8f63e78e3f03ffdbeb6a7a5",
+      "size": 639,
+      "source": "platform/packages/apps/BengalPower/tests/com/bengal/power/GnssStandbyStateTest.java"
+    },
+    {
+      "git_blob": "056ea3fe662b882a506aec48f75335ad67dbc79d",
+      "last_change_author": "wifi133",
+      "last_change_commit": "82e4d9ca1d515f936f27923d51a251e3fb64fa29",
+      "mode": "100644",
+      "path": "tests/com/bengal/power/InstalledDeepCapabilityTest.java",
+      "sha256": "11733943d3d873bf5867416661ad92e93476fbee4793f2749a529d545a3059e4",
+      "size": 3406,
+      "source": "platform/packages/apps/BengalPower/tests/com/bengal/power/InstalledDeepCapabilityTest.java"
+    },
+    {
+      "git_blob": "0671f2a4d168e4e453ab69dcf379b31ffa2aae9c",
+      "last_change_author": "wifi133",
+      "last_change_commit": "0f3cafd281419e13ce9c42b99a1f1ba7bcb9cf21",
+      "mode": "100644",
+      "path": "tests/com/bengal/power/UnavailablePowerReadinessTest.java",
+      "sha256": "56d1ef28f7d68c0d5ce317a86cfb47aacf975578491f02210a202facc6e44744",
+      "size": 2240,
+      "source": "platform/packages/apps/BengalPower/tests/com/bengal/power/UnavailablePowerReadinessTest.java"
+    },
+    {
+      "git_blob": "827eeda3a4e341cd77a6c1d22d1f61e526801ebd",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/android/net/LocalSocket.java",
+      "sha256": "61a4eeccdca8a02305cf2161eafe0de379653d1989f6f01959eefc67a1e2630f",
+      "size": 442,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/android/net/LocalSocket.java"
+    },
+    {
+      "git_blob": "475835e74be45825ad849dc5f45407546cef01f3",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/android/os/IBinder.java",
+      "sha256": "9bf83993e1fe2dd6e009f6e593f61d68134e0a22a5d99b408afd338cbe8ae4c5",
+      "size": 224,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/android/os/IBinder.java"
+    },
+    {
+      "git_blob": "5bd01cf205fcf48eb83cdcc6457e481d3c8559e1",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/android/os/ParcelFileDescriptor.java",
+      "sha256": "208979e4a5c360f093656fd7e8607413a614f1ae4e605f8339cbbb4e648635d8",
+      "size": 768,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/android/os/ParcelFileDescriptor.java"
+    },
+    {
+      "git_blob": "2eb59c2bac07ba383c5c68ef0d620ef9da440486",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/android/os/Process.java",
+      "sha256": "9bd01811dc11c704949b27cbee1c08219e82427c2164f61fca7eb49472e0bd53",
+      "size": 116,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/android/os/Process.java"
+    },
+    {
+      "git_blob": "02769a6df214f8a8a2e76f83e08ee0a72cc5d554",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/android/os/SELinux.java",
+      "sha256": "6c9fb6d4d693107c61444827dc3e049b9eba9f41518d7e49434c82ff6a0d82b2",
+      "size": 172,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/android/os/SELinux.java"
+    },
+    {
+      "git_blob": "f3e28a76519280b553642e9fd5ca3b2f64d21690",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/android/os/ServiceManager.java",
+      "sha256": "cd1a3598911d3d272a46d30ac15b8f1286b898ce93bb29ae38eded655ca38fc5",
+      "size": 206,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/android/os/ServiceManager.java"
+    },
+    {
+      "git_blob": "82fbac418109ad85f905ec916a71e99e66a9003c",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/android/system/ErrnoException.java",
+      "sha256": "b4f9ee4b9041595daf537862900586204ae1e5db7e9d515f9794a7d31a4504ec",
+      "size": 221,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/android/system/ErrnoException.java"
+    },
+    {
+      "git_blob": "b32028ef9f6c24ac5f652af0e04b8e50cd138990",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/android/system/Os.java",
+      "sha256": "3cc0854c47ec4fe0b12c13d3e8e2d990c85d8b7839e954137a63e85bfac1f921",
+      "size": 2278,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/android/system/Os.java"
+    },
+    {
+      "git_blob": "159b63bc3e334dd86af6cf55ece4f341bdedd687",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/android/system/OsConstants.java",
+      "sha256": "ebfd5318a7beb7ecf5b4ac57b07fc1dfa7eb8b0732dbece798ad968cb5dee6c4",
+      "size": 312,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/android/system/OsConstants.java"
+    },
+    {
+      "git_blob": "037df87110d19026246fe83806ed454adbe894e0",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/android/system/StructPollfd.java",
+      "sha256": "6e6ab727820a478be75625f08edbd4429e7d7af6420857441f7c7af4d46394f6",
+      "size": 147,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/android/system/StructPollfd.java"
+    },
+    {
+      "git_blob": "f12c7409caa4fa5135d0900cf667d16c25c5f159",
+      "last_change_author": "wifi133",
+      "last_change_commit": "d66d6a032982bd842bb2619caf98f798373e1018",
+      "mode": "100644",
+      "path": "tests/fd-doubles/vendor/xyauto/accpower/IAccPowerChannel.java",
+      "sha256": "8ec7a0541443dee154d724145fc43b7ed130dc5126d9431518ee77652458f9af",
+      "size": 559,
+      "source": "platform/packages/apps/BengalPower/tests/fd-doubles/vendor/xyauto/accpower/IAccPowerChannel.java"
+    },
+    {
+      "git_blob": "1a881cc4abb81379ed1e5a8d651c572905e7ee7c",
+      "last_change_author": "wifi133",
+      "last_change_commit": "82e4d9ca1d515f936f27923d51a251e3fb64fa29",
+      "mode": "100755",
+      "path": "tests/run-host-tests.sh",
+      "sha256": "ec90a92171c9100636a7425a2a4293bea7943fe67b00756929fa0d22ecd0379b",
+      "size": 2836,
+      "source": "platform/packages/apps/BengalPower/tests/run-host-tests.sh"
+    }
+  ],
+  "format_version": 1,
+  "origin_commit": "2a9fe6ca030794d4f528ea48507a5f9079688e8b"
+}

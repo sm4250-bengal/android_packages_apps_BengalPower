@@ -1,0 +1,19 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+// Product-selected ACC owner. Own UID/domain, never android.uid.system.
+android_app {
+    name: "BengalPower",
+    manifest: "AndroidManifest.xml",
+    srcs: ["src/**/*.java"],
+    static_libs: ["vendor.xyauto.accpower-V1-java"],
+    certificate: "platform",
+    platform_apis: true,
+    privileged: true,
+    system_ext_specific: true,
+    // privapp + default-permissions XMLs are installed by PRODUCT_COPY_FILES in
+    // device.mk, not by prebuilt_etc: the mirror symlink survives prebuilt_etc
+    // into the image as a dangling host path (D3-0141 flight 1, 2026-09-14).
+}
+

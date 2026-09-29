@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.bengal.power">
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED" />
+        <permission name="android.permission.NETWORK_AIRPLANE_MODE" />
+        <permission name="android.permission.NETWORK_SETTINGS" />
+        <permission name="android.permission.TETHER_PRIVILEGED" />
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.MANAGE_USB" />
+    </privapp-permissions>
+</permissions>
